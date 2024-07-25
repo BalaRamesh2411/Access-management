@@ -24,7 +24,7 @@ const Register = () => {
             alert(response.data);
             console.log(response, "res");
             if (response.status === 200) {
-              navigate("/view")
+              navigate("/")
               alert("Register sucessfully")
             }
         } catch (error) {
