@@ -21,7 +21,7 @@ const Register = () => {
         formData.append('user_group', registerData.user_group);
         try {
             const response = await axios.post("https://balaramesh8265.pythonanywhere.com/registeruser", formData);
-            alert(response.data);
+            // alert(response.data);
             console.log(response, "res");
             if (response.status === 200) {
               navigate("/")
